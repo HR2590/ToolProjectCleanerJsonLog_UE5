@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\source\\generalblutilities\\private\\exportallbadsm.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\intermediate\\build\\win64\\x64\\tarea2_cppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\generalblutilities\\definitions.generalblutilities.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\source\\generalblutilities\\public\\exportallbadsm.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\editor\\blutility\\classes\\actoractionutility.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\editor\\blutility\\classes\\editorutilityobject.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\public\\iassetregistrytagproviderinterface.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\iassetregistrytagproviderinterface.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blutility\\uht\\editorutilityobject.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\editor\\blutility\\public\\ieditorutilityextension.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blutility\\uht\\ieditorutilityextension.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blutility\\uht\\actoractionutility.generated.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\generalblutilities\\uht\\exportallbadsm.generated.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\source\\generalblutilities\\public\\ejercicio1.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\generalblutilities\\uht\\ejercicio1.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\staticmeshactor.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\staticmeshactor.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\public\\engineutils.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

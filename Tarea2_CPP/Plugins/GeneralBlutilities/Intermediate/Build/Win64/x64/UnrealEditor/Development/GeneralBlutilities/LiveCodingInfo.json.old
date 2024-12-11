@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeneralBlutilities.cpp.obj": [
+			"Ejercicio1.gen.cpp.obj",
+			"GeneralBlutilities.init.gen.cpp.obj",
+			"GeneralBlutilitiesBPLibrary.gen.cpp.obj",
+			"Ejercicio1.cpp.obj",
+			"GeneralBlutilities.cpp.obj",
+			"GeneralBlutilitiesBPLibrary.cpp.obj"
+		]
+	}
+}

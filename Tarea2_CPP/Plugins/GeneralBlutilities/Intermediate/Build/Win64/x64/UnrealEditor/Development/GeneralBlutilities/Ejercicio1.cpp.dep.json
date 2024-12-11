@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\source\\generalblutilities\\private\\ejercicio1.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\intermediate\\build\\win64\\x64\\tarea2_cppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\generalblutilities\\definitions.generalblutilities.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\source\\generalblutilities\\public\\ejercicio1.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\generalblutilities\\uht\\ejercicio1.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\jsonutilities\\public\\jsonobjectconverter.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\jsonutilities\\public\\jsonobjectwrapper.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\jsonutilities\\uht\\jsonobjectwrapper.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\assetregistrymodule.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\assetregistry\\uht\\iassetregistry.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

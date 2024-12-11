@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GeneralBlutilities.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\rthu3\Documents\Unreal Projects\Tarea2_CPP\Intermediate\Build\Win64\x64\Tarea2_CPPEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\rthu3\Documents\Unreal Projects\Tarea2_CPP\Plugins\GeneralBlutilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeneralBlutilities\Module.GeneralBlutilities.cpp.obj"
+"C:\Users\rthu3\Documents\Unreal Projects\Tarea2_CPP\Plugins\GeneralBlutilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeneralBlutilities\Ejercicio1.cpp.obj"
+"C:\Users\rthu3\Documents\Unreal Projects\Tarea2_CPP\Plugins\GeneralBlutilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeneralBlutilities\GeneralBlutilities.cpp.obj"
+"C:\Users\rthu3\Documents\Unreal Projects\Tarea2_CPP\Plugins\GeneralBlutilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeneralBlutilities\GeneralBlutilitiesBPLibrary.cpp.obj"
+"C:\Users\rthu3\Documents\Unreal Projects\Tarea2_CPP\Plugins\GeneralBlutilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeneralBlutilities\Default.rc2.res"
+/OUT:"C:\Users\rthu3\Documents\Unreal Projects\Tarea2_CPP\Plugins\GeneralBlutilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeneralBlutilities\UnrealEditor-GeneralBlutilities.lib"

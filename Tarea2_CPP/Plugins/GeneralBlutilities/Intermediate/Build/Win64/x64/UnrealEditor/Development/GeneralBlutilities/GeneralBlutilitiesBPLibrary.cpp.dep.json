@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\source\\generalblutilities\\private\\generalblutilitiesbplibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\intermediate\\build\\win64\\x64\\tarea2_cppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\generalblutilities\\definitions.generalblutilities.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\source\\generalblutilities\\public\\generalblutilitiesbplibrary.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\generalblutilities\\uht\\generalblutilitiesbplibrary.generated.h",
+            "c:\\users\\rthu3\\documents\\unreal projects\\tarea2_cpp\\plugins\\generalblutilities\\source\\generalblutilities\\public\\generalblutilities.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
