@@ -13,9 +13,14 @@ class IAssetRegistry;
 class AssetRegistryInterface;
 
 
-#if  WITH_EDITOR
-void UEjercicio1::GetDependencies(const IAssetRegistry& InAssetRegistry,const FAssetRegistryDependencyOptions& InOptions,
-	const FName& InPackageName,FString& OutputText,const size_t InPadding,const size_t& InLevelOfSubDependencies)
+
+void UEjercicio1::GetDependencies(
+	const IAssetRegistry& InAssetRegistry,
+	const FAssetRegistryDependencyOptions& InOptions,
+	const FName& InPackageName,
+	FString& OutputText,
+	const size_t InPadding,
+	const size_t& InLevelOfSubDependencies)
 {
 	
 	if (InPadding>InLevelOfSubDependencies||InPadding==0) return;
@@ -27,7 +32,7 @@ void UEjercicio1::GetDependencies(const IAssetRegistry& InAssetRegistry,const FA
 	if (InPadding==1) OutputText.Append("AssetRoot["+InPackageName.ToString()+"]"+LINE_TERMINATOR);
 	for (const FName& Dependency : OutDependencies)
 	{
-		Tabs=Tabs.LeftPad(InPadding*5);
+		Tabs=Tabs.LeftPad(InPadding*4);
 		OutputText.Append(Tabs+"|-"+Dependency.ToString()+LINE_TERMINATOR);
 		GetDependencies(InAssetRegistry,InOptions,Dependency,OutputText,InPadding+1,InLevelOfSubDependencies);
 	}
@@ -71,7 +76,7 @@ void UEjercicio1::ExportAllAssetsDependencies(const FAssetRegistryDependencyOpti
 
 
 
-void UEjercicio1::WriteStructToJSonFile(const FName& InObjectName,const FAqTestStruct& InStruct,bool& bOutSuccess,FString& OutInfoMessage,FString& OutString)
+void UEjercicio1::WriteStructToJSonFile(const FName& InObjectName,const FJsonValidation& InStruct,bool& bOutSuccess,FString& OutInfoMessage,FString& OutString)
 {
 	TSharedPtr<FJsonObject> RootObject = MakeShareable(new FJsonObject());
 	TSharedPtr<FJsonObject>	JsonObject=FJsonObjectConverter::UStructToJsonObject(InStruct);
@@ -118,4 +123,4 @@ void UEjercicio1::WriteStringToFile(const FString& InFilePath,const FString& InS
 	OutInfoMessage=FString::Printf(TEXT("Write String To File Successfully"));
 	
 }
-#endif
+

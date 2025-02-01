@@ -19,14 +19,14 @@ enum Constants
 
 struct FAqTestStruct;
 #if WITH_EDITOR
-void UExportAllBadSM::ExportAll(TMap<FName, FAqTestStruct>& OutMap,TArray<FString>& OutStaticMeshes)
+void UExportAllBadSM::ExportAll(TMap<FName, FJsonValidation>& OutMap,TArray<FString>& OutStaticMeshes)
 {
 	if (!GEditor) return;
 	OutMap.Empty();
 	for (TActorIterator<AStaticMeshActor> It(GEditor->GetEditorWorldContext().World()); It; ++It)
 	{
 		
-		FAqTestStruct TempStruct;
+		FJsonValidation TempStruct;
 		if (It->GetStaticMeshComponent()->GetStaticMesh()->GetNumTriangles(0)>Max_Num_Of_Triangles)
 		{TempStruct.bHasManyTri=true;}
 		if (It->GetStaticMeshComponent()->GetStaticMesh()->GetNumSourceModels()>Max_Num_Of_Source_Models)

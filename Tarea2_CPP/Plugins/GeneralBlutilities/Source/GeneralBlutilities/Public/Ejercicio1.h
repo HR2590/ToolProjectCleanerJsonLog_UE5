@@ -8,17 +8,14 @@
 #include "Ejercicio1.generated.h"
 
 struct FAssetRegistryDependencyOptions;
-using UE::AssetRegistry::EDependencyQuery;
-using UE::AssetRegistry::EDependencyCategory;
-using UE::AssetRegistry::EDependencyProperty;
-using UE::AssetRegistry::FDependencyQuery;
+
 
 
 class AssetRegistry;
 class FJsonObject;
 
 USTRUCT(BlueprintType,Category="ReadWriteJson")
-struct FAqTestStruct
+struct FJsonValidation
 {
 	GENERATED_BODY()
 public:
@@ -36,24 +33,28 @@ public:
  * 
  */
 UCLASS()
+
 class GENERALBLUTILITIES_API UEjercicio1 : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
+	
+
+	
 	static void GetDependencies(const IAssetRegistry& InAssetRegistry,const FAssetRegistryDependencyOptions& InOptions,
 	const FName& InPackageName,FString& OutputText,const size_t InPadding,const size_t& InLevelOfSubDependencies);
 	
 public:
-#if WITH_EDITOR
+
+	
 UFUNCTION(BlueprintCallable, Category = "Dependencies")
 static void ExportAllAssetsDependencies(const FAssetRegistryDependencyOptions& InOptions);
 
 UFUNCTION(BlueprintCallable, Category = "ReadWriteJson")
-static void WriteStructToJSonFile(const FName& InObjectName, const FAqTestStruct& InStruct, bool& bOutSuccess,FString& OutInfoMessage,FString& OutString);
+static void WriteStructToJSonFile(const FName& InObjectName, const FJsonValidation& InStruct, bool& bOutSuccess,FString& OutInfoMessage,FString& OutString);
 
 static void WriteJson(const TSharedPtr<FJsonObject>& JsonObject,bool& bOutSuccess,FString& OutInfoMessage,FString& OutString);
 
 UFUNCTION(BlueprintCallable, Category = "ReadWriteJson")
 	static void WriteStringToFile(const FString& FilePath,const FString& InString,bool& bOutSuccess,FString& OutInfoMessage);
-
-#endif
+	
 };

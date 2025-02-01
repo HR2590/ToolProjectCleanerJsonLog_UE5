@@ -17,6 +17,6 @@ class GENERALBLUTILITIES_API UExportAllBadSM : public UActorActionUtility
 public:
 #if WITH_EDITOR
 	UFUNCTION(BlueprintCallable)
-	static void ExportAll(TMap<FName, FAqTestStruct>& OutMap,TArray<FString>& OutStaticMeshes);
+	static void ExportAll(TMap<FName, FJsonValidation>& OutMap,TArray<FString>& OutStaticMeshes);
 #endif
 };
