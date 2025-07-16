@@ -1,5 +1,5 @@
 <p><span class="Y2IQFc" lang="en">C++ Blueprint Library tool that lists all assets in the project that have dependencies following this format:</span></p>
-<p><span class="Y2IQFc" lang="en">This tool automatically starts when the editor is Open, the exported file address can be change. Demo: https://youtu.be/-XYzlMPCZdU</span></p>
+<p><span class="Y2IQFc" lang="en">This tool automatically starts when the editor is Open, the exported file address can be change. Demo: https://youtu.be/hQu7duX62sc</span></p>
 <div class="oSioSc">
 <div id="tw-target">
 <div id="kAz1tf" class="g9WsWb PZPZlf" data-attrid="tw-targetArea" data-entityname="Google Translate">
